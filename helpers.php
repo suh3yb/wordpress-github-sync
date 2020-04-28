@@ -2,7 +2,7 @@
 /**
  * Theme helper functions.
  *
- * @package WordPress_GitHub_SYnc
+ * @package WordPress_GitHub_Sync
  */
 
 /**

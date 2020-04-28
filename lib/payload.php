@@ -114,7 +114,7 @@ class WordPress_GitHub_Sync_Payload {
 		// The last term in the ref is the payload_branch name.
 		$refs   = explode( '/', $this->data->ref );
 		$payload_branch = array_pop( $refs );
-		$sync_branch = apply_filters( 'wpghs_sync_branch', 'master' );
+		$sync_branch = apply_filters( 'wpghs_sync_branch', 'wordpress' );
 
 		if ( ! $sync_branch ) {
 			throw new Exception( __( 'Sync branch not set. Filter `wpghs_sync_branch` misconfigured.', 'wp-github-sync' ) );

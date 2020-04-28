@@ -21,7 +21,7 @@ class WordPress_GitHub_Sync_Database {
 	 *
 	 * @var array
 	 */
-	protected $whitelisted_post_types = array( 'post', 'page' );
+	protected $whitelisted_post_types = array( 'post', 'page', '*' );
 
 	/**
 	 * Currently whitelisted post statuses.

@@ -6,7 +6,7 @@
 
 ?>
 <div class="wrap">
-	<h2><?php esc_html_e( 'WordPress <--> GitHub Sync', 'wp-github-sync' ); ?></h2>
+	<h2><?php esc_html_e( 'WordPress <--> GitHub Sync -- Edited Version For Project Mentorschap', 'wp-github-sync' ); ?></h2>
 
 	<form method="post" action="options.php">
 		<?php settings_fields( WordPress_GitHub_Sync::$text_domain ); ?>
